@@ -1,0 +1,22 @@
+{
+    "name": "dolpon/crontab-manage",
+    "description": "一个crontab 脚本插件",
+    "type": "project",
+    "require-dev": {
+        "php": ">=5.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dolpon",
+            "email": "jun90610@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "dolpon\\crontabManage\\": "src/"
+      }
+    }
+}
